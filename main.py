@@ -59,7 +59,7 @@ def set_reminder_date(msg):
     p=parse(msg)
     date=p.strftime('%d/%m/%Y')
     save_reminder_date(date)
-    return 0
+    return 0 
 
 def set_reminder_body(msg):
     save_reminder_body(msg)
